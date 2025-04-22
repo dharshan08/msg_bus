@@ -23,9 +23,9 @@ global:
   #cluster-issuer: &cluster-issuer acme-issuer
   
   ingress:
-    enabled: false
+    enabled: true
     # enable all component's Ingress interfaces
-    enable_all: false
+    enable_all: true
     # All http requests via ingress will be redirected
     # Provider: ingress, istio, gw-api
     provider: ingress
@@ -277,7 +277,7 @@ strimzi:
     advertizedPortBroker2: &advertizedPortBroker2 9002
 
   ingress:
-    enabled: false
+    enabled: true
     service:
     - baseaddr: "kafka-bootstrap-api"
       name: "onap-strimzi-kafka-external-bootstrap"
