@@ -1,3 +1,10 @@
+# prerequisites
+`cd infra`
+`kubectl apply -f addons/cert-manager/cert-manager.v1.12.0.yaml`
+`kubectl apply -f     addons/ingress/nginx_ingress_cluster_config.yaml`
+`kubectl apply -f certs/selfsigned-cluster-issuer.yaml`
+`scripts/install_helm.sh`
+
 # install strimzi cluster operator
 `helm upgrade --install strimzi-kafka-operator strimzi/strimzi-kafka-operator --namespace strimzi-system --version 0.41.0 --set watchAnyNamespace=true --create-namespace`
 # uninstall strimzi cluster operator
