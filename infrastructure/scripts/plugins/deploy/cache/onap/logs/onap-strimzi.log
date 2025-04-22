@@ -1,0 +1,40 @@
+WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: /home/dharshan/.kube/config
+WARNING: Kubernetes configuration file is world-readable. This is insecure. Location: /home/dharshan/.kube/config
+history.go:56: 2025-04-22 09:52:44.094120222 +0530 IST m=+0.043337876 [debug] getting history for release onap-strimzi
+upgrade.go:164: 2025-04-22 09:52:44.105766364 +0530 IST m=+0.054984012 [debug] preparing upgrade for onap-strimzi
+upgrade.go:172: 2025-04-22 09:52:44.270326687 +0530 IST m=+0.219544345 [debug] performing update for onap-strimzi
+upgrade.go:375: 2025-04-22 09:52:44.40755192 +0530 IST m=+0.356769571 [debug] creating upgraded release for onap-strimzi
+client.go:393: 2025-04-22 09:52:44.421030335 +0530 IST m=+0.370248023 [debug] checking 7 resources for changes
+client.go:684: 2025-04-22 09:52:44.429020459 +0530 IST m=+0.378238141 [debug] Looks like there are no changes for ServiceAccount "onap-strimzi-kafka-read"
+client.go:684: 2025-04-22 09:52:44.436853952 +0530 IST m=+0.386071630 [debug] Looks like there are no changes for PersistentVolume "onap-strimzi-kafka-0"
+client.go:684: 2025-04-22 09:52:44.44333854 +0530 IST m=+0.392556218 [debug] Looks like there are no changes for PersistentVolume "onap-strimzi-zk-0"
+client.go:684: 2025-04-22 09:52:44.450337342 +0530 IST m=+0.399555025 [debug] Looks like there are no changes for RoleBinding "onap-strimzi-kafka-read"
+upgrade.go:487: 2025-04-22 09:52:44.47958622 +0530 IST m=+0.428803856 [debug] warning: Upgrade "onap-strimzi" failed: failed to create resource: Internal error occurred: failed calling webhook "validate.nginx.ingress.kubernetes.io": failed to call webhook: Post "https://ingress-nginx-controller-admission.ingress-nginx.svc:443/networking/v1/ingresses?timeout=10s": no endpoints available for service "ingress-nginx-controller-admission"
+Error: UPGRADE FAILED: failed to create resource: Internal error occurred: failed calling webhook "validate.nginx.ingress.kubernetes.io": failed to call webhook: Post "https://ingress-nginx-controller-admission.ingress-nginx.svc:443/networking/v1/ingresses?timeout=10s": no endpoints available for service "ingress-nginx-controller-admission"
+helm.go:86: 2025-04-22 09:52:44.486079675 +0530 IST m=+0.435297333 [debug] Internal error occurred: failed calling webhook "validate.nginx.ingress.kubernetes.io": failed to call webhook: Post "https://ingress-nginx-controller-admission.ingress-nginx.svc:443/networking/v1/ingresses?timeout=10s": no endpoints available for service "ingress-nginx-controller-admission"
+failed to create resource
+helm.sh/helm/v3/pkg/kube.(*Client).Update.func1
+	helm.sh/helm/v3/pkg/kube/client.go:410
+helm.sh/helm/v3/pkg/kube.ResourceList.Visit
+	helm.sh/helm/v3/pkg/kube/resource.go:32
+helm.sh/helm/v3/pkg/kube.(*Client).Update
+	helm.sh/helm/v3/pkg/kube/client.go:394
+helm.sh/helm/v3/pkg/action.(*Upgrade).releasingUpgrade
+	helm.sh/helm/v3/pkg/action/upgrade.go:429
+runtime.goexit
+	runtime/asm_amd64.s:1695
+UPGRADE FAILED
+main.newUpgradeCmd.func2
+	helm.sh/helm/v3/cmd/helm/upgrade.go:243
+github.com/spf13/cobra.(*Command).execute
+	github.com/spf13/cobra@v1.8.1/command.go:985
+github.com/spf13/cobra.(*Command).ExecuteC
+	github.com/spf13/cobra@v1.8.1/command.go:1117
+github.com/spf13/cobra.(*Command).Execute
+	github.com/spf13/cobra@v1.8.1/command.go:1041
+main.main
+	helm.sh/helm/v3/cmd/helm/helm.go:85
+runtime.main
+	runtime/proc.go:271
+runtime.goexit
+	runtime/asm_amd64.s:1695

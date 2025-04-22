@@ -1,0 +1,9 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: readinessCheck
+  repository: http://localhost:6464
+  version: 13.1.0
+digest: sha256:5eda111d7aba1c75d875ead8cfc462d6fb1222a55e696c53fe516898f1b0d6a6
+generated: "2024-07-02T14:12:16.122744904Z"

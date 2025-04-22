@@ -1,0 +1,4 @@
+config:
+  openStackRegion: Yolo
+  openStackVNFTenantId: "1234"
+enabled: false

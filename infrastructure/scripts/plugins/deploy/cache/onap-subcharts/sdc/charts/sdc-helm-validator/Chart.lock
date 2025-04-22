@@ -1,0 +1,9 @@
+dependencies:
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+digest: sha256:edd036df5e92a76ff296c76017eff111cbd6aceaacc6e6cd630d021723df6991
+generated: "2024-07-02T14:14:00.486160022Z"

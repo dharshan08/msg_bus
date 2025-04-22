@@ -1,0 +1,8 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP OOF helm templates
+name: oof-templates
+version: 13.0.0

@@ -1,0 +1,21 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: postgres
+  repository: http://localhost:6464
+  version: 13.1.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: readinessCheck
+  repository: http://localhost:6464
+  version: 13.1.0
+- name: dcaegen2-services-common
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+digest: sha256:a75b1ecd6ac5eb5e1b7b6c26b079da49e6e74b0722ab90b3be9ecf9002f971ee
+generated: "2024-07-02T14:09:29.115565851Z"

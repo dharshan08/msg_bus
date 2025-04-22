@@ -1,0 +1,39 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- condition: etcd.enabled
+  name: etcd
+  repository: '@local'
+  version: ~13.x-0
+- condition: etcd-init.enabled
+  name: etcd-init
+  repository: '@local'
+  version: ~13.x-0
+- condition: oof-has-api.enabled
+  name: oof-has-api
+  repository: file://components/oof-has-api
+  version: ~13.x-0
+- condition: oof-has-controller.enabled
+  name: oof-has-controller
+  repository: file://components/oof-has-controller
+  version: ~13.x-0
+- condition: oof-has-data.enabled
+  name: oof-has-data
+  repository: file://components/oof-has-data
+  version: ~13.x-0
+- condition: oof-has-reservation.enabled
+  name: oof-has-reservation
+  repository: file://components/oof-has-reservation
+  version: ~13.x-0
+- condition: oof-has-solver.enabled
+  name: oof-has-solver
+  repository: file://components/oof-has-solver
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Homing and Allocation Service
+name: oof-has
+version: 13.0.0

@@ -1,0 +1,11 @@
+config:
+  dmaapTopic: AUTO
+  openStackEncryptedPasswordHere: c124921a3a0efbe579782cde8227681e
+  openStackKeyStoneUrl: http://1.2.3.4:5000
+  openStackRegion: RegionOne
+  openStackServiceTenantName: service
+  openStackUserName: vnf_user
+enabled: false
+liveness:
+  enabled: false
+replicaCount: 1

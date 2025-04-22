@@ -1,0 +1,9 @@
+enabled: false
+mariadbOperator:
+  appVersion: 11.1.2
+  galera:
+    enabled: false
+  persistence:
+    size: 3Gi
+    storageClassName: onap-mariadb-data
+replicaCount: 1

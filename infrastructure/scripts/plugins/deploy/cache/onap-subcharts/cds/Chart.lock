@@ -1,0 +1,24 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: mariadb-galera
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: cds-blueprints-processor
+  repository: file://components/cds-blueprints-processor
+  version: 13.0.0
+- name: cds-command-executor
+  repository: file://components/cds-command-executor
+  version: 13.0.0
+- name: cds-py-executor
+  repository: file://components/cds-py-executor
+  version: 13.0.0
+- name: cds-sdc-listener
+  repository: file://components/cds-sdc-listener
+  version: 13.0.0
+- name: cds-ui
+  repository: file://components/cds-ui
+  version: 13.0.0
+digest: sha256:d9d1d33da66995d8fdfb247abbe3010beda92c48b467dcb3dca0dae7c3907480
+generated: "2024-07-02T14:08:46.67735088Z"

@@ -1,0 +1,4 @@
+apiVersion: v2
+description: ONAP Multicloud Prometheus Alert Manager
+name: prometheus-alertmanager
+version: 13.0.0

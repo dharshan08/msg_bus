@@ -1,0 +1,54 @@
+dcae-datafile-collector:
+  enabled: false
+dcae-datalake-admin-ui:
+  enabled: false
+dcae-datalake-des:
+  enabled: false
+dcae-datalake-feeder:
+  enabled: false
+dcae-heartbeat:
+  enabled: false
+dcae-hv-ves-collector:
+  enabled: false
+dcae-kpi-ms:
+  enabled: false
+dcae-ms-healthcheck:
+  enabled: false
+dcae-pm-mapper:
+  enabled: false
+dcae-pmsh:
+  enabled: false
+dcae-prh:
+  enabled: false
+dcae-restconf-collector:
+  enabled: false
+dcae-slice-analysis-ms:
+  enabled: false
+dcae-snmptrap-collector:
+  enabled: false
+dcae-son-handler:
+  enabled: false
+dcae-tcagen2:
+  enabled: false
+dcae-ves-collector:
+  applicationConfig:
+    auth.method: noAuth
+  enabled: false
+  ingress:
+    annotations:
+      cert-manager.io/cluster-issuer: selfsigned-cluster-issuer
+      kubernetes.io/ingress.class: nginx
+      nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    config:
+      ssl: dontuse
+      tls:
+        secret: dcae-ves-tls
+    service:
+    - baseaddr: dcae-ves-collector
+      name: dcae-ves-collector
+      port: 8080
+dcae-ves-mapper:
+  enabled: false
+dcae-ves-openapi-manager:
+  enabled: false
+enabled: false

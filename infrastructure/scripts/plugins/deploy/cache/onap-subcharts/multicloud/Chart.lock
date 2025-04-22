@@ -1,0 +1,33 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: multicloud-fcaps
+  repository: file://components/multicloud-fcaps
+  version: 13.0.0
+- name: multicloud-k8s
+  repository: file://components/multicloud-k8s
+  version: 13.1.0
+- name: multicloud-pike
+  repository: file://components/multicloud-pike
+  version: 13.0.0
+- name: multicloud-prometheus
+  repository: file://components/multicloud-prometheus
+  version: 13.0.0
+- name: multicloud-starlingx
+  repository: file://components/multicloud-starlingx
+  version: 13.0.0
+- name: multicloud-vio
+  repository: file://components/multicloud-vio
+  version: 13.0.0
+- name: multicloud-windriver
+  repository: file://components/multicloud-windriver
+  version: 13.0.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+digest: sha256:1561cc537503ed1c3d8f69d6ce105af14b38f509dbdb71d44420c7b004bfb130
+generated: "2024-07-02T14:12:05.105080944Z"

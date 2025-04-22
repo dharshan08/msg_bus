@@ -1,0 +1,11 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: readinessCheck
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP CMPv2 certificate external provider for cert-manager
+name: cmpv2-cert-provider
+version: 13.0.0

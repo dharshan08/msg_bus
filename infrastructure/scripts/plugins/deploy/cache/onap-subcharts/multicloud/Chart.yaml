@@ -1,0 +1,42 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- condition: multicloud-fcaps.enabled
+  name: multicloud-fcaps
+  repository: file://components/multicloud-fcaps
+  version: ~13.x-0
+- condition: multicloud-k8s.enabled
+  name: multicloud-k8s
+  repository: file://components/multicloud-k8s
+  version: ~13.x-0
+- condition: multicloud-pike.enabled
+  name: multicloud-pike
+  repository: file://components/multicloud-pike
+  version: ~13.x-0
+- condition: multicloud-prometheus.enabled
+  name: multicloud-prometheus
+  repository: file://components/multicloud-prometheus
+  version: ~13.x-0
+- condition: multicloud-starlingx.enabled
+  name: multicloud-starlingx
+  repository: file://components/multicloud-starlingx
+  version: ~13.x-0
+- condition: multicloud-vio.enabled
+  name: multicloud-vio
+  repository: file://components/multicloud-vio
+  version: ~13.x-0
+- condition: multicloud-windriver.enabled
+  name: multicloud-windriver
+  repository: file://components/multicloud-windriver
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP multicloud broker
+name: multicloud
+version: 13.1.0

@@ -1,0 +1,14 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: file://../common
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: file://../repositoryGenerator
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: Chart for etcd init job
+name: etcd-init
+version: 13.0.0

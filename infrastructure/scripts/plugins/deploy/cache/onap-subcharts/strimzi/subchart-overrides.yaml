@@ -1,0 +1,36 @@
+config:
+  advertizedPortBroker0: 9000
+  advertizedPortBroker1: 9001
+  advertizedPortBroker2: 9002
+enabled: true
+ingress:
+  enabled: true
+  service:
+  - baseaddr: kafka-bootstrap-api
+    exposedPort: 9010
+    exposedProtocol: TLS
+    name: onap-strimzi-kafka-external-bootstrap
+    port: 9094
+  - baseaddr: kafka-0-api
+    exposedPort: 9000
+    exposedProtocol: TLS
+    name: onap-strimzi-kafka-0
+    port: 9094
+  - baseaddr: kafka-1-api
+    exposedPort: 9001
+    exposedProtocol: TLS
+    name: onap-strimzi-kafka-1
+    port: 9094
+  - baseaddr: kafka-2-api
+    exposedPort: 9002
+    exposedProtocol: TLS
+    name: onap-strimzi-kafka-2
+    port: 9094
+persistence:
+  kafka:
+    size: 10Gi
+  zookeeper:
+    size: 1Gi
+replicaCount: 1
+strimzi-kafka-bridge:
+  enabled: false

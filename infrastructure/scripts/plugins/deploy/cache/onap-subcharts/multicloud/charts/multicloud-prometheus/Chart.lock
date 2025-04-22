@@ -1,0 +1,18 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: prometheus-alertmanager
+  repository: file://components/prometheus-alertmanager
+  version: 13.0.0
+- name: prometheus-grafana
+  repository: file://components/prometheus-grafana
+  version: 13.0.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+digest: sha256:6b21ce1422964eec2c377340f9e1f7e2f73329ef17c7c35b5a8800d624190aad
+generated: "2024-07-02T14:11:47.69032637Z"

@@ -1,0 +1,16 @@
+apiVersion: v2
+appVersion: 2.2.5
+dependencies:
+- name: common
+  repository: file://../common
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: file://../repositoryGenerator
+  version: ~13.x-0
+description: Distributed reliable key-value store for the most critical data of a
+  distributed system.
+home: https://github.com/coreos/etcd
+name: etcd
+sources:
+- https://github.com/coreos/etcd
+version: 13.0.0

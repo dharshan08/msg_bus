@@ -1,0 +1,6 @@
+cloudControllerManager:
+  allocateNodeCidrs: "false"
+  cloudConfig: "/etc/cloud/cloud-config"
+  configureCloudRoutes: "false"
+  leaderElect: "true"
+  caCertDir: "/usr/share/ca-certificates"

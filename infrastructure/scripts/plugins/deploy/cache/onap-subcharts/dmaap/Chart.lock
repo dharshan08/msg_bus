@@ -1,0 +1,18 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: message-router
+  repository: file://components/message-router
+  version: 13.0.0
+- name: dmaap-dr-node
+  repository: file://components/dmaap-dr-node
+  version: 13.0.0
+- name: dmaap-dr-prov
+  repository: file://components/dmaap-dr-prov
+  version: 13.0.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+digest: sha256:e6b6597de66156c19aa6fdf4c4087d2a3e144ce975758daeb7d7758f1e077c80
+generated: "2024-07-02T14:10:27.165251548Z"

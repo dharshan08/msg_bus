@@ -1,0 +1,46 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- condition: global.cassandra.localCluster
+  name: cassandra
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- condition: aai-babel.enabled
+  name: aai-babel
+  repository: file://components/aai-babel
+  version: ~13.x-0
+- condition: aai-graphadmin.enabled
+  name: aai-graphadmin
+  repository: file://components/aai-graphadmin
+  version: ~13.x-0
+- condition: aai-modelloader.enabled
+  name: aai-modelloader
+  repository: file://components/aai-modelloader
+  version: ~13.x-0
+- condition: aai-resources.enabled
+  name: aai-resources
+  repository: file://components/aai-resources
+  version: ~13.x-0
+- condition: aai-schema-service.enabled
+  name: aai-schema-service
+  repository: file://components/aai-schema-service
+  version: ~13.x-0
+- condition: aai-sparky-be.enabled
+  name: aai-sparky-be
+  repository: file://components/aai-sparky-be
+  version: ~13.x-0
+- condition: aai-traversal.enabled
+  name: aai-traversal
+  repository: file://components/aai-traversal
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Active and Available Inventory
+name: aai
+version: 13.0.1

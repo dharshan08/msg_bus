@@ -1,0 +1,20 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: uui-server
+  repository: file://components/uui-server
+  version: ~13.x-0
+- name: uui-nlp
+  repository: file://components/uui-nlp
+  version: ~13.x-0
+- name: uui-intent-analysis
+  repository: file://components/uui-intent-analysis
+  version: ~13.x-0
+description: ONAP uui
+name: uui
+version: 13.0.0

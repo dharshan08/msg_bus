@@ -1,0 +1,20 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: oof-templates
+  repository: file://../../../oof-templates
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+- name: readinessCheck
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Homing and Allocation Sevice - Reservation Component
+name: oof-has-reservation
+version: 13.0.0

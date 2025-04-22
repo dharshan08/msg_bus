@@ -1,0 +1,22 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: file://../common
+  version: ~13.x-0
+- name: master
+  repository: file://components/master
+  version: ~13.x-0
+- condition: elasticsearch.data.enabled,data.enabled
+  name: data
+  repository: file://components/data
+  version: ~13.x-0
+- condition: elasticsearch.curator.enabled,curator.enabled
+  name: curator
+  repository: file://components/curator
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: file://../repositoryGenerator
+  version: ~13.x-0
+description: ONAP elasticsearch
+name: elasticsearch
+version: 13.0.0

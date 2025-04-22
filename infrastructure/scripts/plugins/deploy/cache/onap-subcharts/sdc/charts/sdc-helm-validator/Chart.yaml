@@ -1,0 +1,11 @@
+apiVersion: v2
+dependencies:
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Service Design and Creation Helm Validator
+name: sdc-helm-validator
+version: 13.0.0

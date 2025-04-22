@@ -1,0 +1,18 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: roles-wrapper
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: cps-core
+  repository: http://localhost:6464
+  version: 13.0.1
+- name: cps-temporal
+  repository: http://localhost:6464
+  version: 13.0.1
+- name: ncmp-dmi-plugin
+  repository: http://localhost:6464
+  version: 13.0.1
+digest: sha256:7b1215c650d8fc18de7e57c3015d9c990e62eab9bd9b743ab7afe0b199bcdeb2
+generated: "2024-07-02T14:09:25.283828163Z"

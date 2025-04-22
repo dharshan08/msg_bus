@@ -1,0 +1,9 @@
+dependencies:
+- name: common
+  repository: file://../common
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: file://../repositoryGenerator
+  version: 13.0.0
+digest: sha256:5030964d730d538b490e52ed40231f99c5bbd1958629afc397ce5461a294821d
+generated: "2024-07-02T14:06:35.695667747Z"

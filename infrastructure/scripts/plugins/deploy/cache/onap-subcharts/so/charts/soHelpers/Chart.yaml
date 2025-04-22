@@ -1,0 +1,8 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+description: A Helm chart for SO helpers
+name: soHelpers
+version: 13.0.0

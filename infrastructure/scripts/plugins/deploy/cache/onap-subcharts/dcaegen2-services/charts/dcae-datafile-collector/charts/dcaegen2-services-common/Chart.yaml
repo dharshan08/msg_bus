@@ -1,0 +1,9 @@
+apiVersion: v2
+appVersion: Kohn
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+description: DCAE Microservices Common templates
+name: dcaegen2-services-common
+version: 13.0.0

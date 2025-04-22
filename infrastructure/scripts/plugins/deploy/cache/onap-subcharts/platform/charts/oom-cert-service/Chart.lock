@@ -1,0 +1,15 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: certManagerCertificate
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: cmpv2Config
+  repository: http://localhost:6464
+  version: 13.0.0
+digest: sha256:a245870fbf5454e7560408850f45cff26d64efd2e88f7709be907bae57b053b2
+generated: "2024-07-02T14:12:19.623606332Z"

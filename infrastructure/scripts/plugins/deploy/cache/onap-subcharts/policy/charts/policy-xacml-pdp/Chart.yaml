@@ -1,0 +1,14 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Policy XACML PDP (PDP-X)
+name: policy-xacml-pdp
+version: 14.0.0

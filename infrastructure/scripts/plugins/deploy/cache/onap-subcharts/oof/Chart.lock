@@ -1,0 +1,21 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: oof-has
+  repository: file://components/oof-has
+  version: 13.0.0
+- name: oof-templates
+  repository: file://components/oof-templates
+  version: 13.0.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+- name: readinessCheck
+  repository: http://localhost:6464
+  version: 13.1.0
+digest: sha256:ef5263284a0a67329290b627aaac9a38600fd23e3b7272cf3aa7298556c1c979
+generated: "2024-07-02T14:12:48.975866891Z"

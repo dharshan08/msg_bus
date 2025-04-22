@@ -1,0 +1,17 @@
+apiVersion: v2
+dependencies:
+- condition: oom-cert-service.enabled
+  name: oom-cert-service
+  repository: '@local'
+  version: ~13.x-0
+- condition: cmpv2-cert-provider.enabled
+  name: cmpv2-cert-provider
+  repository: '@local'
+  version: ~13.x-0
+- condition: chartmuseum.enabled
+  name: chartmuseum
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP platform components
+name: platform
+version: 13.0.1

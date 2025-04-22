@@ -1,0 +1,24 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- condition: standaloneDeployment
+  name: roles-wrapper
+  repository: '@local'
+  version: ~13.x-0
+- condition: cps-core.enabled
+  name: cps-core
+  repository: '@local'
+  version: ~13.x-0
+- condition: cps-temporal.enabled
+  name: cps-temporal
+  repository: '@local'
+  version: ~13.x-0
+- condition: ncmp-dmi-plugin.enabled
+  name: ncmp-dmi-plugin
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Configuration Persistance Service (CPS)
+name: cps
+version: 13.0.1

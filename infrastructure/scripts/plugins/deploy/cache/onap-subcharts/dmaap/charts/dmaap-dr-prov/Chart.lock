@@ -1,0 +1,21 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: mariadb-galera
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: mariadb-init
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: readinessCheck
+  repository: http://localhost:6464
+  version: 13.1.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+digest: sha256:0887bc361c193643b0936b8344b08ab0a0c37cdb7eebd3ef3c2588b6e6201885
+generated: "2024-07-02T14:10:12.960290403Z"

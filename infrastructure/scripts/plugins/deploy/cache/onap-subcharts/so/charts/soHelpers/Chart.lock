@@ -1,0 +1,6 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+digest: sha256:050eef42da5483df23aa4d837e4c0c7f1ad1640f69ae55051234b7fc73cf5b32
+generated: "2024-07-02T14:15:52.184511246Z"

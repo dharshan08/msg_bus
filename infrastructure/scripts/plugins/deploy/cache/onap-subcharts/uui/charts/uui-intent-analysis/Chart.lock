@@ -1,0 +1,18 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: postgres
+  repository: http://localhost:6464
+  version: 13.1.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+- name: readinessCheck
+  repository: http://localhost:6464
+  version: 13.1.0
+digest: sha256:22c177ef0384b6fdcacd834ea5026e00e3096c87b856317e2e808a07697a7ef0
+generated: "2024-07-02T14:17:42.200410072Z"

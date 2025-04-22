@@ -1,0 +1,27 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: sdc-be
+  repository: file://components/sdc-be
+  version: 13.0.0
+- name: sdc-cs
+  repository: file://components/sdc-cs
+  version: 13.0.0
+- name: sdc-fe
+  repository: file://components/sdc-fe
+  version: 13.0.0
+- name: sdc-onboarding-be
+  repository: file://components/sdc-onboarding-be
+  version: 13.0.0
+- name: sdc-wfd-be
+  repository: file://components/sdc-wfd-be
+  version: 13.0.0
+- name: sdc-wfd-fe
+  repository: file://components/sdc-wfd-fe
+  version: 13.0.0
+- name: sdc-helm-validator
+  repository: file://components/sdc-helm-validator
+  version: 13.0.0
+digest: sha256:5492abccc200a554878cf0575565494e4e058a963740f9b96b5eb38a0a51d4f4
+generated: "2024-07-02T14:14:17.587118708Z"

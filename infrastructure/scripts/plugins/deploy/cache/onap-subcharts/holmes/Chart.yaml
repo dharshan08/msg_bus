@@ -1,0 +1,25 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- condition: global.postgres.localCluster
+  name: postgres
+  repository: '@local'
+  version: ~13.x-0
+- condition: global.postgres.globalCluster
+  name: postgres-init
+  repository: '@local'
+  version: ~13.x-0
+- name: holmes-rule-mgmt
+  repository: file://components/holmes-rule-mgmt
+  version: ~13.x-0
+- name: holmes-engine-mgmt
+  repository: file://components/holmes-engine-mgmt
+  version: ~13.x-0
+description: ONAP DCAE HOLMES
+name: holmes
+version: 13.0.0

@@ -1,0 +1,17 @@
+apiVersion: v2
+appVersion: 0.1.0
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: Helm chart of the backend for ONAP portal. This micro service follows
+  the backend for frontend approach.
+name: portal-ng-bff
+type: application
+version: 13.0.0

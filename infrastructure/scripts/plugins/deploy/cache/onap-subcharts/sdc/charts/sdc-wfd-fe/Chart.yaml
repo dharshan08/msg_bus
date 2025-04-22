@@ -1,0 +1,11 @@
+apiVersion: v2
+dependencies:
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Service Design and Creation Workflow Designer frontend
+name: sdc-wfd-fe
+version: 13.0.0

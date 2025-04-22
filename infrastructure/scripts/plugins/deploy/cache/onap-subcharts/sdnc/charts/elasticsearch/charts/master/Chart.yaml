@@ -1,0 +1,11 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: file://../../../common
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: file://../../../repositoryGenerator
+  version: ~13.x-0
+description: ONAP elasticsearch master
+name: master
+version: 13.0.0

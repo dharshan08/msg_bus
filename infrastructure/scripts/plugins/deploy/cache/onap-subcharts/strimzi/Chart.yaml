@@ -1,0 +1,18 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+- condition: strimzi-kafka-bridge.enabled
+  name: strimzi-kafka-bridge
+  repository: file://components/strimzi-kafka-bridge
+  version: ~13.x-0
+description: ONAP Strimzi Kafka
+name: strimzi
+version: 13.0.1

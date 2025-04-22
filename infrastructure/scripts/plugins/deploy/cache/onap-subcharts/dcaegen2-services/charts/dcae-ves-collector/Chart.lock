@@ -1,0 +1,18 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: dcaegen2-services-common
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: certManagerCertificate
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+digest: sha256:ebc57c2e95f36c6279f512e5825fa552555e41713f02fcd359ddbfc719601c6b
+generated: "2024-07-02T14:10:48.202125414Z"

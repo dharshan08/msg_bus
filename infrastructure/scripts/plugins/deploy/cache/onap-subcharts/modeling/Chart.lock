@@ -1,0 +1,6 @@
+dependencies:
+- name: modeling-etsicatalog
+  repository: file://components/modeling-etsicatalog
+  version: 13.0.0
+digest: sha256:809c5bd3a90510614cef5785dd332f61b2545ddba3280c05864ebbc4f508d6ef
+generated: "2024-07-02T14:11:09.124746106Z"

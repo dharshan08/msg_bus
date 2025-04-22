@@ -1,0 +1,23 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- condition: message-router.enabled
+  name: message-router
+  repository: file://components/message-router
+  version: ~13.x-0
+- condition: dmaap-dr-node.enabled
+  name: dmaap-dr-node
+  repository: file://components/dmaap-dr-node
+  version: ~13.x-0
+- condition: dmaap-dr-prov.enabled
+  name: dmaap-dr-prov
+  repository: file://components/dmaap-dr-prov
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP DMaaP components
+name: dmaap
+version: 13.0.0

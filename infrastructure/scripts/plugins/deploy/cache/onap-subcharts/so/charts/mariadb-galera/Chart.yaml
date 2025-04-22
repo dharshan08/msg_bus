@@ -1,0 +1,25 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: file://../common
+  version: ~13.x-0
+- name: readinessCheck
+  repository: file://../readinessCheck
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: file://../repositoryGenerator
+  version: ~13.x-0
+- condition: global.mariadbGalera.enableServiceAccount
+  name: serviceAccount
+  repository: file://../serviceAccount
+  version: ~13.x-0
+description: Chart for MariaDB Galera cluster
+keywords:
+- mariadb
+- mysql
+- database
+- sql
+- galera
+- cluster
+name: mariadb-galera
+version: 13.2.0

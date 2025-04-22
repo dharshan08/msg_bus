@@ -1,0 +1,11 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: file://../common
+  version: ~13.x-0
+- name: cmpv2Config
+  repository: file://../cmpv2Config
+  version: ~13.x-0
+description: A Helm chart for Cert-Manager Certificate CRD template
+name: certManagerCertificate
+version: 13.0.0

@@ -1,0 +1,48 @@
+cds:
+  enabled: false
+config:
+  odlPassword: admin
+  sdnr:
+    enabled: true
+    kafka:
+      enabled: true
+    mariadb:
+      enabled: true
+    mode: dm
+    mountpointRegistrarEnabled: true
+    mountpointStateProviderEnabled: true
+    netconfCallHome:
+      enabled: true
+    sdnrdbTrustAllCerts: true
+    sdnronly: true
+dgbuilder:
+  enabled: false
+dmaap-listener:
+  enabled: false
+elasticsearch:
+  enabled: false
+enabled: false
+mysql:
+  replicaCount: 1
+network-name-gen:
+  enabled: false
+replicaCount: 1
+sdnc-ansible-server:
+  enabled: false
+sdnc-web:
+  ingress:
+    annotations:
+      cert-manager.io/cluster-issuer: selfsigned-cluster-issuer
+      kubernetes.io/ingress.class: nginx
+      nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    config:
+      ssl: dontuse
+      tls:
+        secret: sdnc-web-tls
+    service:
+    - baseaddr: sdnc-web
+      name: sdnc-web
+      plain_port: 8080
+      port: 8080
+ueb-listener:
+  enabled: false

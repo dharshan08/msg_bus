@@ -1,0 +1,17 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: certManagerCertificate
+  repository: '@local'
+  version: ~13.x-0
+- name: cmpv2Config
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Cert Service
+name: oom-cert-service
+version: 13.0.0

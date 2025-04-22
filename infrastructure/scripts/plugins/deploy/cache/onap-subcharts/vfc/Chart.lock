@@ -1,0 +1,36 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: mariadb-galera
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: vfc-generic-vnfm-driver
+  repository: file://components/vfc-generic-vnfm-driver
+  version: 13.0.0
+- name: vfc-huawei-vnfm-driver
+  repository: file://components/vfc-huawei-vnfm-driver
+  version: 13.0.0
+- name: vfc-nslcm
+  repository: file://components/vfc-nslcm
+  version: 13.0.0
+- name: vfc-redis
+  repository: file://components/vfc-redis
+  version: 13.0.0
+- name: vfc-vnflcm
+  repository: file://components/vfc-vnflcm
+  version: 13.0.0
+- name: vfc-vnfmgr
+  repository: file://components/vfc-vnfmgr
+  version: 13.0.0
+- name: vfc-vnfres
+  repository: file://components/vfc-vnfres
+  version: 13.0.0
+- name: vfc-zte-vnfm-driver
+  repository: file://components/vfc-zte-vnfm-driver
+  version: 13.0.0
+digest: sha256:525604c35b979c80e42734f8b6c345b04d5829cfd11c681931b39b9061748385
+generated: "2024-07-02T14:19:01.477901466Z"

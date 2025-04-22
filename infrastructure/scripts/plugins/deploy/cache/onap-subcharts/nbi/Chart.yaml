@@ -1,0 +1,25 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: mongodb
+  repository: '@local'
+  version: 14.12.3
+- condition: global.mariadbGalera.localCluster
+  name: mariadb-galera
+  repository: '@local'
+  version: ~13.x-0
+- condition: global.mariadbGalera.globalCluster
+  name: mariadb-init
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Northbound Interface
+name: nbi
+version: 13.1.0

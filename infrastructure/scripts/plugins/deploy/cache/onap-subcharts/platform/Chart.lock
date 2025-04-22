@@ -1,0 +1,12 @@
+dependencies:
+- name: oom-cert-service
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: cmpv2-cert-provider
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: chartmuseum
+  repository: http://localhost:6464
+  version: 13.0.0
+digest: sha256:3677cbbf4a84e7af7dc5721a63c766226c8ae6059a82fda06fef75c875c4b8cc
+generated: "2024-07-02T14:12:26.245272357Z"

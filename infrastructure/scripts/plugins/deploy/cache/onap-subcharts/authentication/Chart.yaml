@@ -1,0 +1,19 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+- name: onap-keycloak-config-cli
+  repository: file://components/keycloak-config-cli
+  version: 5.12.0
+- name: onap-oauth2-proxy
+  repository: file://components/oauth2-proxy
+  version: 7.5.4
+description: ONAP Realm creation, Oauth2Proxy installation and configuration
+name: authentication
+sources:
+- https://github.com/adorsys/keycloak-config-cli
+version: 14.0.0

@@ -1,0 +1,14 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Policy Clamp A1PMS Participant
+name: policy-clamp-ac-a1pms-ppnt
+version: 14.0.0

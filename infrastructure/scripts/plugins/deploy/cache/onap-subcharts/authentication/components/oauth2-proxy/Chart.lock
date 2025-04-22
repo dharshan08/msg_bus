@@ -1,0 +1,12 @@
+dependencies:
+- name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 19.1.0
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+digest: sha256:d2e9596ca8c115dd7843b4b9a2d37ede419e185600275bd936eb39f177a72e8d
+generated: "2024-07-02T14:08:07.82555086Z"

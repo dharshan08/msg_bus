@@ -1,0 +1,15 @@
+apiVersion: v2
+appVersion: Kohn
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP DCAE Microservice Health Check
+name: dcae-ms-healthcheck
+version: 13.0.0

@@ -1,0 +1,8 @@
+apiVersion: v2
+dependencies:
+- name: modeling-etsicatalog
+  repository: file://components/modeling-etsicatalog
+  version: ~13.x-0
+description: ONAP Modeling (Modeling)
+name: modeling
+version: 13.0.0

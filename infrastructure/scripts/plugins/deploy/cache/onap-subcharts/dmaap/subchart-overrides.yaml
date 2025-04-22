@@ -1,0 +1,9 @@
+dmaap-bc:
+  enabled: false
+dmaap-dr-node:
+  enabled: false
+dmaap-dr-prov:
+  enabled: false
+enabled: true
+message-router:
+  enabled: true

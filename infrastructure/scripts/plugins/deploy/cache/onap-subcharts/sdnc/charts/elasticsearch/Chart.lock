@@ -1,0 +1,18 @@
+dependencies:
+- name: common
+  repository: file://../common
+  version: 13.2.0
+- name: master
+  repository: file://components/master
+  version: 13.0.0
+- name: data
+  repository: file://components/data
+  version: 13.0.0
+- name: curator
+  repository: file://components/curator
+  version: 13.0.0
+- name: repositoryGenerator
+  repository: file://../repositoryGenerator
+  version: 13.0.0
+digest: sha256:7ebaf9da4e5bfc9b7101b41a6d06de5d30b6fa976d3ea7c5f0ffac8c50184ff5
+generated: "2024-07-02T14:07:05.112808269Z"

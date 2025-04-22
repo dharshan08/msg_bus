@@ -1,0 +1,20 @@
+apiVersion: v2
+appVersion: 0.1.1
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+- name: mongodb
+  repository: '@local'
+  version: 14.12.3
+description: Helm chart of the preferences. This micro service provides the user preferences
+  for the ONAP portal.
+name: portal-ng-preferences
+type: application
+version: 13.0.0

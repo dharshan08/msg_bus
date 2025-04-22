@@ -1,0 +1,17 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: soHelpers
+  repository: file://../soHelpers
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP SO ETSI SOL003 Adapter
+name: so-etsi-sol003-adapter
+version: 13.0.0

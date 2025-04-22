@@ -1,0 +1,15 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: soHelpers
+  repository: file://../soHelpers
+  version: 13.0.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+digest: sha256:75d80c4f3d144029cf2e94d22286267a08779e508945ce019722664921684d78
+generated: "2024-07-02T14:17:15.346656022Z"

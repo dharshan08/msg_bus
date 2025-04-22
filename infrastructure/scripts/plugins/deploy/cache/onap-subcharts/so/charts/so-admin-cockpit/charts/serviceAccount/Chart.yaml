@@ -1,0 +1,8 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: file://../common
+  version: ~13.x-0
+description: Template used to create the right Service Accounts / Role / RoleBinding
+name: serviceAccount
+version: 13.0.1

@@ -1,0 +1,20 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: portal-ng-bff
+  repository: '@local'
+  version: ~13.x-0
+- name: portal-ng-preferences
+  repository: '@local'
+  version: ~13.x-0
+- name: portal-ng-history
+  repository: '@local'
+  version: ~13.x-0
+- name: portal-ng-ui
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Next Generation Portal
+name: portal-ng
+version: 13.0.1

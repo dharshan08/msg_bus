@@ -1,0 +1,11 @@
+apiVersion: v2
+dependencies:
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Policy GUI
+name: policy-gui
+version: 14.0.0

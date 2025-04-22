@@ -1,0 +1,18 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: portal-ng-bff
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: portal-ng-preferences
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: portal-ng-history
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: portal-ng-ui
+  repository: http://localhost:6464
+  version: 13.0.0
+digest: sha256:8e064249a05de6f7aeb8ea4af40a65ba77afa5430f2dedd1f53cb00b0b0f25e0
+generated: "2024-07-02T14:13:45.083710619Z"

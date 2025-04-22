@@ -1,0 +1,11 @@
+chartmuseum:
+  enabled: false
+cmpv2-cert-service:
+  enabled: false
+enabled: false
+keycloak-init:
+  enabled: false
+oauth2-proxy:
+  enabled: false
+oom-cert-service:
+  enabled: false

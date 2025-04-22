@@ -1,0 +1,36 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: cassandra
+  repository: http://localhost:6464
+  version: 13.1.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: aai-babel
+  repository: file://components/aai-babel
+  version: 13.0.0
+- name: aai-graphadmin
+  repository: file://components/aai-graphadmin
+  version: 13.0.0
+- name: aai-modelloader
+  repository: file://components/aai-modelloader
+  version: 13.0.0
+- name: aai-resources
+  repository: file://components/aai-resources
+  version: 13.0.1
+- name: aai-schema-service
+  repository: file://components/aai-schema-service
+  version: 13.0.0
+- name: aai-sparky-be
+  repository: file://components/aai-sparky-be
+  version: 13.0.0
+- name: aai-traversal
+  repository: file://components/aai-traversal
+  version: 13.0.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+digest: sha256:21fddf9d6e425fe90ddb996e9cb03a767fa4716b6760c29d9a199542b8d4c451
+generated: "2024-07-02T14:08:28.98208918Z"

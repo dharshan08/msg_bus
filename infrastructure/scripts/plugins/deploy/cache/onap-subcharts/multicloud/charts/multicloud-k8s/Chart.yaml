@@ -1,0 +1,20 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: mongodb
+  repository: '@local'
+  version: 14.12.3
+- name: etcd
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Multicloud Kubernetes Plugin
+name: multicloud-k8s
+version: 13.1.0

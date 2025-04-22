@@ -1,0 +1,24 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: kube2msb
+  repository: file://components/kube2msb
+  version: 13.0.0
+- name: msb-consul
+  repository: file://components/msb-consul
+  version: 13.0.0
+- name: msb-discovery
+  repository: file://components/msb-discovery
+  version: 13.0.0
+- name: msb-eag
+  repository: file://components/msb-eag
+  version: 13.0.0
+- name: msb-iag
+  repository: file://components/msb-iag
+  version: 13.0.0
+digest: sha256:4d54d8cc4ad0564bc242989b6f57f0b0c8f1070e9217c313855add133746928d
+generated: "2024-07-02T14:11:33.738992695Z"

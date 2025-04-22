@@ -1,0 +1,25 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- condition: global.postgres.localCluster
+  name: postgres
+  repository: '@local'
+  version: ~13.x-0
+- condition: postgres.postgresInit
+  name: postgres-init
+  repository: '@local'
+  version: ~13.x-0
+- name: readinessCheck
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP Configuration Persistance Service (CPS) - Core
+name: cps-core
+version: 13.0.1

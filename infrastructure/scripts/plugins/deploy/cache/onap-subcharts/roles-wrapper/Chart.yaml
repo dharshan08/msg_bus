@@ -1,0 +1,8 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: file://../common
+  version: ~13.x-0
+description: Wrapper chart to allow default roles to be shared among onap instances
+name: roles-wrapper
+version: 13.0.0

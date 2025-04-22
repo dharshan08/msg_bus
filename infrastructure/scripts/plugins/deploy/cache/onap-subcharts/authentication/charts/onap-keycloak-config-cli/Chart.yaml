@@ -1,0 +1,27 @@
+apiVersion: v2
+appVersion: 5.12.0
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+description: Import JSON-formatted configuration files into Keycloak - Configuration
+  as Code for Keycloak.
+home: https://github.com/adorsys/keycloak-config-cli
+keywords:
+- keycloak
+- config
+- import
+- json
+- continuous-integration
+- keycloak-config-cli
+maintainers:
+- email: joe@adorsys.de
+  name: jkroepke
+  url: https://github.com/jkroepke
+name: onap-keycloak-config-cli
+sources:
+- https://github.com/adorsys/keycloak-config-cli
+version: 5.12.0

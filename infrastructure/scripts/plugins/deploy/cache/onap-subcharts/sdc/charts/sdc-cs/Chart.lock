@@ -1,0 +1,15 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: serviceAccount
+  repository: http://localhost:6464
+  version: 13.0.1
+- name: cassandra
+  repository: http://localhost:6464
+  version: 13.1.0
+digest: sha256:0898e0d33d0f2d5bbba8b64045140dfe27b048651af82077eac98a1782a0e2ca
+generated: "2024-07-02T14:13:53.202581102Z"

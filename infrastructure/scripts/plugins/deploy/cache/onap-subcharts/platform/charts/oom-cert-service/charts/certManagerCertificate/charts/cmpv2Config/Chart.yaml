@@ -1,0 +1,8 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: file://../common
+  version: ~13.x-0
+description: Template used to store cmpv2 configuration in onap
+name: cmpv2Config
+version: 13.0.0

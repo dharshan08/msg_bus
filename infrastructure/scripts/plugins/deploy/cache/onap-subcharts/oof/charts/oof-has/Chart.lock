@@ -1,0 +1,30 @@
+dependencies:
+- name: common
+  repository: http://localhost:6464
+  version: 13.2.0
+- name: etcd
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: etcd-init
+  repository: http://localhost:6464
+  version: 13.0.0
+- name: oof-has-api
+  repository: file://components/oof-has-api
+  version: 13.0.0
+- name: oof-has-controller
+  repository: file://components/oof-has-controller
+  version: 13.0.0
+- name: oof-has-data
+  repository: file://components/oof-has-data
+  version: 13.0.0
+- name: oof-has-reservation
+  repository: file://components/oof-has-reservation
+  version: 13.0.0
+- name: oof-has-solver
+  repository: file://components/oof-has-solver
+  version: 13.0.0
+- name: repositoryGenerator
+  repository: http://localhost:6464
+  version: 13.0.0
+digest: sha256:7f9c534720f904d5a0debf1057a0c1e016cbc0864ed28d73e34b6dd494a24602
+generated: "2024-07-02T14:12:11.777677266Z"

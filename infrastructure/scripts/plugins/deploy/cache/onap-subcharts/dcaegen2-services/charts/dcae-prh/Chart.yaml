@@ -1,0 +1,18 @@
+apiVersion: v2
+appVersion: NewDelhi
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: dcaegen2-services-common
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: DCAE PRH
+name: dcae-prh
+version: 13.1.0

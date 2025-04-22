@@ -1,0 +1,15 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: file://../common
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: file://../repositoryGenerator
+  version: ~13.x-0
+- condition: global.cassandra.enableServiceAccount
+  name: serviceAccount
+  repository: file://../serviceAccount
+  version: ~13.x-0
+description: ONAP cassandra
+name: cassandra
+version: 13.1.0

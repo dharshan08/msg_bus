@@ -1,0 +1,21 @@
+apiVersion: v2
+appVersion: London
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: readinessCheck
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+- name: dcaegen2-services-common
+  repository: '@local'
+  version: ~13.x-0
+- name: serviceAccount
+  repository: '@local'
+  version: ~13.x-0
+description: DCAE KPI MS chart
+name: dcae-kpi-ms
+version: 13.0.0

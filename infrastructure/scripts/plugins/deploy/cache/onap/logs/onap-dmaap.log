@@ -1,0 +1,18 @@
+WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: /home/dharshan/.kube/config
+WARNING: Kubernetes configuration file is world-readable. This is insecure. Location: /home/dharshan/.kube/config
+history.go:56: 2025-04-22 09:52:44.580822764 +0530 IST m=+0.038709027 [debug] getting history for release onap-dmaap
+Release "onap-dmaap" does not exist. Installing it now.
+install.go:224: 2025-04-22 09:52:44.582830284 +0530 IST m=+0.040716553 [debug] Original chart version: ""
+install.go:241: 2025-04-22 09:52:44.582856793 +0530 IST m=+0.040743058 [debug] CHART PATH: /home/dharshan/.local/share/helm/plugins/deploy/cache/onap-subcharts/dmaap
+
+client.go:142: 2025-04-22 09:52:44.835687517 +0530 IST m=+0.293573814 [debug] creating 1 resource(s)
+client.go:142: 2025-04-22 09:52:44.84324575 +0530 IST m=+0.301132020 [debug] creating 10 resource(s)
+W0422 09:52:44.880928  342916 warnings.go:70] annotation "kubernetes.io/ingress.class" is deprecated, please use 'spec.ingressClassName' instead
+Error: 1 error occurred:
+	* Internal error occurred: failed calling webhook "validate.nginx.ingress.kubernetes.io": failed to call webhook: Post "https://ingress-nginx-controller-admission.ingress-nginx.svc:443/networking/v1/ingresses?timeout=10s": no endpoints available for service "ingress-nginx-controller-admission"
+
+
+helm.go:86: 2025-04-22 09:52:44.890953334 +0530 IST m=+0.348839617 [debug] 1 error occurred:
+	* Internal error occurred: failed calling webhook "validate.nginx.ingress.kubernetes.io": failed to call webhook: Post "https://ingress-nginx-controller-admission.ingress-nginx.svc:443/networking/v1/ingresses?timeout=10s": no endpoints available for service "ingress-nginx-controller-admission"
+
+

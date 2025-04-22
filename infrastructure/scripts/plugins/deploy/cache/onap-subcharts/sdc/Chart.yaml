@@ -1,0 +1,32 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: sdc-be
+  repository: file://components/sdc-be
+  version: ~13.x-0
+- name: sdc-cs
+  repository: file://components/sdc-cs
+  version: ~13.x-0
+- name: sdc-fe
+  repository: file://components/sdc-fe
+  version: ~13.x-0
+- name: sdc-onboarding-be
+  repository: file://components/sdc-onboarding-be
+  version: ~13.x-0
+- condition: sdc-wfd.enabled
+  name: sdc-wfd-be
+  repository: file://components/sdc-wfd-be
+  version: ~13.x-0
+- condition: sdc-wfd.enabled
+  name: sdc-wfd-fe
+  repository: file://components/sdc-wfd-fe
+  version: ~13.x-0
+- condition: sdcHelmValidator.enabled
+  name: sdc-helm-validator
+  repository: file://components/sdc-helm-validator
+  version: ~13.x-0
+description: Service Design and Creation Umbrella Helm charts
+name: sdc
+version: 13.0.1

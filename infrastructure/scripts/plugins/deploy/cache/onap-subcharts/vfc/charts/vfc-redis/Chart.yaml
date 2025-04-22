@@ -1,0 +1,11 @@
+apiVersion: v2
+dependencies:
+- name: common
+  repository: '@local'
+  version: ~13.x-0
+- name: repositoryGenerator
+  repository: '@local'
+  version: ~13.x-0
+description: ONAP VFC - REDIS
+name: vfc-redis
+version: 13.0.0
